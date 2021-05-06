@@ -23,6 +23,7 @@ module.exports = {
 	],
 	rules: {
 		'require-jsdoc': 'off',
+		'no-useless-escape': 'off',
 		// 'no-use-before-define': ['error', 'nofunc'],
 		// 'import/prefer-default-export': 'off',
 	},
