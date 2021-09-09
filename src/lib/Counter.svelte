@@ -1,13 +1,15 @@
 <script>
 	let count = 0;
 	const increment = () => {
-		count += 1;
+		count++;
 	};
 </script>
 
-<button on:click={increment}>
-	Clicks: {count}
-</button>
+<template>
+	<button on:click={increment}>
+		Clicks: {count}
+	</button>
+</template>
 
 <style style lang="postcss">
 	button {

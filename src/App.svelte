@@ -5,17 +5,19 @@
 
 <Tailwindcss />
 
-<main>
-	<h1>Hello world!</h1>
+<template>
+	<main>
+		<h1>Hello world!</h1>
 
-	<Counter />
+		<Counter />
 
-	<p>This is a Svelte Template which uses TailwindCSS & comes with Stylelint & Stylelint pre-configured.</p>
+		<p>This is a Svelte Template which uses TailwindCSS & comes with Stylelint & Stylelint pre-configured.</p>
 
-	<p>
-		<strong class="text-xl text-red-600">Assumes Prettier is already configured.</strong>
-	</p>
-</main>
+		<p>
+			<strong class="text-xl text-red-600">Assumes Prettier is already configured.</strong>
+		</p>
+	</main>
+</template>
 
 <style style lang="postcss">
 	:root {
