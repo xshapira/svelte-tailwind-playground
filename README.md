@@ -8,11 +8,11 @@ This is a `svelte` playground to start a new project. It comes with `tailwindcss
 
 ## Usage
 
-`npm install` to install the required node modules.
+`pnpm install` to install the required node modules.
 
-`npm run dev` to run dev server with live preview.
+`pnpm run dev` to run dev server with live preview.
 
-`npm run build` to build for production.
+`pnpm run build` to build for production.
 
 ---
 
